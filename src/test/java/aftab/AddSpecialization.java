@@ -10,4 +10,5 @@ public class AddSpecialization {
 	System.out.println("hii Aftab");
 
 	}
+	
 }
