@@ -7,6 +7,7 @@ public class AddSpecialization {
 	public void addSpecialization()
 	{
 	System.out.println("Admin added specialization Successfully");
+	System.out.println("hii Aftab");
 
 	}
 }
