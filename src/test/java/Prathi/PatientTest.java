@@ -6,7 +6,7 @@ public class PatientTest {
 	@Test
 	public void bookAppointment()
 	{
-		System.out.println("appoint booking");
+		System.out.println("appoint booking1");
 	}
 
 }
