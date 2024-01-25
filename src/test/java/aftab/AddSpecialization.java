@@ -10,11 +10,5 @@ public class AddSpecialization {
 	System.out.println("hii Aftab");
 
 	}
-	@Test
-	public void addDoc()
-	{
-	System.out.println("Admin added Doctor Successfully");
-	System.out.println("hii Doctor");
-
-	}
+	
 }
