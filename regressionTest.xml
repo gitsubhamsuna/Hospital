@@ -3,15 +3,18 @@
 <suite parallel="tests" name="Suite">
 	<groups>
 		<run>
-			<include name="smoke"></include>
+			<include name="regression"></include>
 		</run>
 	</groups>
   <test thread-count="5" parallel="tests" name="Test">
     <classes>
+      <class name="Prathi.patTEst"/>
       <class name="practice.DemoTest"/>
       <class name="aftab.AdminLogout"/>
       <class name="practice.PracticeTest"/>
+      <class name=".PTest"/>
       <class name="practice.SampleTest"/>
+      <class name="Prathi.PatientTest"/>
       <class name="aftab.AddSpecialization"/>
       <class name="aftab.AdminLogin"/>
     </classes>

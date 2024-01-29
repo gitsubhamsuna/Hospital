@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<groups>
+		<run>
+			<include name="smoke"></include>
+		</run>
+	</groups>
+  <test thread-count="5" parallel="tests" name="Test">
+    <classes>
+      <class name="Prathi.patTEst"/>
+      <class name="practice.DemoTest"/>
+      <class name="aftab.AdminLogout"/>
+      <class name="practice.PracticeTest"/>
+      <class name=".PTest"/>
+      <class name="practice.SampleTest"/>
+      <class name="Prathi.PatientTest"/>
+      <class name="aftab.AddSpecialization"/>
+      <class name="aftab.AdminLogin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

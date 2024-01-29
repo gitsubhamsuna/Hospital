@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="15" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-29T15:32:16 IST" name="Suite" finished-at="2024-01-29T15:32:16 IST" duration-ms="146">
+    <groups>
+      <group name="regression">
+        <method signature="DemoTest.demo1Test()[pri:0, instance:practice.DemoTest@776aec5c]" name="demo1Test" class="practice.DemoTest"/>
+        <method signature="PracticeTest.practice4Test()[pri:0, instance:practice.PracticeTest@36ebc363]" name="practice4Test" class="practice.PracticeTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="AdminLogin.login()[pri:0, instance:aftab.AdminLogin@3c41ed1d]" name="login" class="aftab.AdminLogin"/>
+        <method signature="AdminLogout.logout()[pri:0, instance:aftab.AdminLogout@22555ebf]" name="logout" class="aftab.AdminLogout"/>
+        <method signature="DemoTest.demo1Test()[pri:0, instance:practice.DemoTest@776aec5c]" name="demo1Test" class="practice.DemoTest"/>
+        <method signature="DemoTest.demo4Test()[pri:0, instance:practice.DemoTest@776aec5c]" name="demo4Test" class="practice.DemoTest"/>
+        <method signature="PracticeTest.practice1Test()[pri:0, instance:practice.PracticeTest@36ebc363]" name="practice1Test" class="practice.PracticeTest"/>
+        <method signature="PracticeTest.practice2Test()[pri:0, instance:practice.PracticeTest@36ebc363]" name="practice2Test" class="practice.PracticeTest"/>
+        <method signature="PracticeTest.practice4Test()[pri:0, instance:practice.PracticeTest@36ebc363]" name="practice4Test" class="practice.PracticeTest"/>
+        <method signature="SampleTest.sample1Test()[pri:0, instance:practice.SampleTest@45752059]" name="sample1Test" class="practice.SampleTest"/>
+        <method signature="SampleTest.sample2Test()[pri:0, instance:practice.SampleTest@45752059]" name="sample2Test" class="practice.SampleTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-01-29T15:32:16 IST" name="Test" finished-at="2024-01-29T15:32:16 IST" duration-ms="146">
+      <class name="practice.SampleTest">
+        <test-method signature="sample1Test()[pri:0, instance:practice.SampleTest@45752059]" started-at="2024-01-29T15:32:16 IST" name="sample1Test" finished-at="2024-01-29T15:32:16 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample1Test -->
+        <test-method signature="sample2Test()[pri:0, instance:practice.SampleTest@45752059]" started-at="2024-01-29T15:32:16 IST" name="sample2Test" finished-at="2024-01-29T15:32:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample2Test -->
+      </class> <!-- practice.SampleTest -->
+      <class name="practice.DemoTest">
+        <test-method signature="demo1Test()[pri:0, instance:practice.DemoTest@776aec5c]" started-at="2024-01-29T15:32:16 IST" name="demo1Test" finished-at="2024-01-29T15:32:16 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1Test -->
+        <test-method signature="demo4Test()[pri:0, instance:practice.DemoTest@776aec5c]" started-at="2024-01-29T15:32:16 IST" name="demo4Test" finished-at="2024-01-29T15:32:16 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo4Test -->
+      </class> <!-- practice.DemoTest -->
+      <class name="aftab.AdminLogout">
+        <test-method signature="logout()[pri:0, instance:aftab.AdminLogout@22555ebf]" started-at="2024-01-29T15:32:16 IST" name="logout" finished-at="2024-01-29T15:32:16 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- aftab.AdminLogout -->
+      <class name="practice.PracticeTest">
+        <test-method signature="practice1Test()[pri:0, instance:practice.PracticeTest@36ebc363]" started-at="2024-01-29T15:32:16 IST" name="practice1Test" finished-at="2024-01-29T15:32:16 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practice1Test -->
+        <test-method signature="practice2Test()[pri:0, instance:practice.PracticeTest@36ebc363]" started-at="2024-01-29T15:32:16 IST" name="practice2Test" finished-at="2024-01-29T15:32:16 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practice2Test -->
+        <test-method signature="practice4Test()[pri:0, instance:practice.PracticeTest@36ebc363]" started-at="2024-01-29T15:32:16 IST" name="practice4Test" finished-at="2024-01-29T15:32:16 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practice4Test -->
+      </class> <!-- practice.PracticeTest -->
+      <class name="aftab.AdminLogin">
+        <test-method signature="login()[pri:0, instance:aftab.AdminLogin@3c41ed1d]" started-at="2024-01-29T15:32:16 IST" name="login" finished-at="2024-01-29T15:32:16 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- aftab.AdminLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
