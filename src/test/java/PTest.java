@@ -6,7 +6,7 @@ public class PTest {
 //		throw new NullPointerException("Java");
 		System.out.println("throw");
 	}
-	@Test
+	@Test(groups = "smoke")
 	public void log() {
 		System.out.println("New test anf run for paticular class");
 	}
