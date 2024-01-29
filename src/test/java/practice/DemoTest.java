@@ -3,7 +3,7 @@ package practice;
 import org.testng.annotations.Test;
 
 public class DemoTest {
-	@Test(groups = { "smoke", "regression" })
+	@Test
 	public void demo1Test() {
 		System.out.println("---Demo 1 Test----");
 	}
