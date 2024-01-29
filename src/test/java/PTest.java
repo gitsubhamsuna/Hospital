@@ -1,6 +1,6 @@
 import org.testng.annotations.Test;
 
-public class P1 {
+public class PTest {
 	@Test
 	public void test() {
 //		throw new NullPointerException("Java");
